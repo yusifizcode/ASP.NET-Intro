@@ -10,28 +10,28 @@ namespace ASP_Intro.Controllers
     public class ExamController : Controller
     {
 
-        private List<Exam> _exams;
+        public List<Exam> Exams;
         public ExamController()
         {
-            _exams = new List<Exam>
+            Exams = new List<Exam>
             {
                 new Exam(1,"hikmet abbasov",1),
                 new Exam(2,"Yusif Osmanov",100)
             };
         }
-        public ActionResult Index(int id)
+        public ActionResult Index()
         {
-            Exam exam = _exams.Find(x=>x.Id==id);
-            ViewBag.ExamId = exam.Id;
-            ViewBag.FullName = exam.StudentFullName;
+            
+            ViewBag.Exams = Exams;
+            //ViewBag.FullName = exam.StudentFullName;
             return View();
         }
 
 
         public ActionResult Detail(int id)
         {
-            Exam exam = _exams.Find(x => x.Id == id);
-            ViewBag.ExamId = exam.StudentFullName;
+            Exam exam = Exams.Find(x => x.Id == id);
+            ViewBag.FullName = exam.StudentFullName;
             ViewBag.Point = exam.Point;
             return View();
         }

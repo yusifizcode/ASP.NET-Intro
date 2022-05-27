@@ -33,7 +33,7 @@ namespace ASP_Intro
             {
                 endpoints.MapControllerRoute(
                     "default",
-                    "{controller}/{action=index}"
+                    "{controller}/{action=index}/{id?}"
                     );
             });
         }
