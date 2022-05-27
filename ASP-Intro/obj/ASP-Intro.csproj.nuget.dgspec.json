@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yusifiz\\Desktop\\csharpIntroClassWork\\ClassWork-CS-BlogPostTask\\ASP-Intro\\ASP-Intro.csproj": {}
+    "C:\\Users\\Yusifiz\\Desktop\\ASP-Intro\\ASP-Intro\\ASP-Intro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yusifiz\\Desktop\\csharpIntroClassWork\\ClassWork-CS-BlogPostTask\\ASP-Intro\\ASP-Intro.csproj": {
+    "C:\\Users\\Yusifiz\\Desktop\\ASP-Intro\\ASP-Intro\\ASP-Intro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusifiz\\Desktop\\csharpIntroClassWork\\ClassWork-CS-BlogPostTask\\ASP-Intro\\ASP-Intro.csproj",
+        "projectUniqueName": "C:\\Users\\Yusifiz\\Desktop\\ASP-Intro\\ASP-Intro\\ASP-Intro.csproj",
         "projectName": "ASP-Intro",
-        "projectPath": "C:\\Users\\Yusifiz\\Desktop\\csharpIntroClassWork\\ClassWork-CS-BlogPostTask\\ASP-Intro\\ASP-Intro.csproj",
+        "projectPath": "C:\\Users\\Yusifiz\\Desktop\\ASP-Intro\\ASP-Intro\\ASP-Intro.csproj",
         "packagesPath": "C:\\Users\\Yusifiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusifiz\\Desktop\\csharpIntroClassWork\\ClassWork-CS-BlogPostTask\\ASP-Intro\\obj\\",
+        "outputPath": "C:\\Users\\Yusifiz\\Desktop\\ASP-Intro\\ASP-Intro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -15,8 +15,8 @@ namespace ASP_Intro.Controllers
         {
             _exams = new List<Exam>
             {
-                new Exam(1,"ayten magmin",1),
-                new Exam(2,"yusif salak",100)
+                new Exam(1,"hikmet abbasov",1),
+                new Exam(2,"Yusif Osmanov",100)
             };
         }
         public ActionResult Index(int id)

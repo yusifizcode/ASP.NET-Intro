@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ASP_Intro</RootNamespace>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
 </Project>
